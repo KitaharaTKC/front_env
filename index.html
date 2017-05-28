@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <title>Facial Salon | 全国のスキンケアのプロフェッショナル</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="logo header_logo">
+        <a href=""><img src="./img/FS_logo.svg" alt="Logo"></a>
+      </div>
+      <header class="header">
+        <div class="inner">
+          <nav class="nav">
+          	<ul class="cf">
+              <h1><a href="./index.html"><img src="./img/FS_logo03.svg" alt="ロゴマーク"></a></h1>
+          		<li><a href="./index.html" class="bdLine">トップページ<br><span>Top</span></a></li>
+          		<li><a href="./concept.html">Facial Salonとは<br><span>Concept</span></a></li>
+          		<li><a href="./service.html">サービス<br><span>Service</span></a></li>
+          		<li><a href="./price.html">店舗一覧＆価格表<br><span>Salon＆Price</span></a></li>
+          		<li><a href="./costomer.html">お客様の声<br><span>Customer Voice</span></a></li>
+          		<li><a href="./faq.html">よくある質問<br><span>FAQ</span></a></li>
+          	</ul>
+          </nav>
+        </div>
+      </header>
+      <div class="album cf">
+        <img class="img1" src="./img/shop_img01.jpg" alt="MainPhoto">
+        <img class="img2" src="./img/shop_img02.jpg" alt="MainPhoto">
+        <img class="img3" src="./img/shop_img03.jpg" alt="MainPhoto">
+        <img class="img4" src="./img/shop_img04.jpg" alt="MainPhoto">
+      </div>
+      <div class="inner">
+        <div class="innfo">
+          <p>肌質・肌トラブルに関する正確な知識・技能を持って<br>
+            理想とするお肌に最短最適で近づくためのサポートをする<br>
+            スキンケアのプロフェッショナル<br>
+          <a href="./concept.html"><img src="./img/img004.png" alt="more"></a>
+          </p>
+        </div>
+      </div>
+      <div class="inner">
+        <div class="contents cf">
+          <div class="box1 box">
+            <a href="./price.html"><img src="./img/img001.png" alt="Photo"></a>
+          </div>
+          <div class="box2 box">
+            <a href="./costomer.html"><img src="./img/img002.png" alt="Photo"></a>
+          </div>
+          <div class="box3 box">
+            <a href="./faq.html"><img src="./img/img003.png" alt="Photo"></a>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footNav">
+          <ul class="cf">
+            <li><a href="./index.html">トップページ</a></li>
+            <li><a href="./concept.html">Facial Salonとは</a></li>
+            <li><a href="./service.html">サービス</a></li>
+            <li><a href="./price.html">店舗一覧＆価格表</a></li>
+            <li><a href="./costomer.html">お客様の声</a></li>
+            <li><a href="./faq.html">よくある質問</a></li>
+          </ul>
+        </div>
+        <div class="logo footer_logo">
+          <img src="./img/FS_logo.svg" alt="Logo">
+        </div>
+        <div class="pageTop">
+          <img src="./img/TopBtn.png" alt="top">
+        </div>
+        <small class="small">Copyright© Facial Salon,Co.,Ltd All rights reserved.</small>
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+      <script>
+        $('.pageTop').click(function(){
+          $('body , html').animate({scrollTop: 0}, 1000);
+        });
+
+        $(window).scroll(function(){
+          var scr = $(window).scrollTop();
+          if (scr > 300) {
+            $('.pageTop').fadeIn();
+          } else {
+            $('.pageTop').fadeOut();
+          }
+        });
+      </script>
+    </div>
+  </body>
+</html>
